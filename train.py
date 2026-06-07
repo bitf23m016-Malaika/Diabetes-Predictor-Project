@@ -19,7 +19,7 @@ warnings.filterwarnings("ignore")
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
 BASE      = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(BASE, "dataset", "diabetes.csv")
+DATA_PATH = os.path.join(BASE, "diabetes.csv")
 MDL_DIR   = os.path.join(BASE, "model")
 os.makedirs(MDL_DIR, exist_ok=True)
 
